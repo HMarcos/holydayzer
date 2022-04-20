@@ -4,7 +4,7 @@ Holydayzer é um servidor *back-end* implementado em *node.js* de calendário de
 
 ## Utilização
 
-Para instalar as dependências rode o comando:
+Para instalar as dependências, no diretório da aplicação, rode o comando:
 
 ```
 npm install
@@ -12,12 +12,16 @@ npm install
 
 ## Funcionamento
 
-Para ativar o servidor basta fazer no terminal:
+Para ativar o servidor basta, no diretório da aplicação, fazer no terminal:
 
 ```
 node index.js
 ```
+ou
 
+```
+npm index.js
+```
 Assim o servidor estará funcionando na **porta 5000**.
 
 ## Requisições
