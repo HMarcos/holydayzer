@@ -19,3 +19,10 @@ node index.js
 ```
 
 Assim o servidor estará funcionando na **porta 5000**.
+
+## Requisições
+
+Ao todo o servidor responde a duas requisições:
+
+* `/holidays`, em que retorna uma lista de feriados nacionais do Brasil;
+* `/is-today-holiday`, em que retorna se hoje é feriado ou não, indicando qual é o respectivo feriado.
