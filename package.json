@@ -1,0 +1,24 @@
+{
+  "name": "holydayzer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HMarcos/holydayzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HMarcos/holydayzer/issues"
+  },
+  "homepage": "https://github.com/HMarcos/holydayzer#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
