@@ -1,5 +1,6 @@
-import express, { response } from "express";
-import { request } from "http";
+import express from "express";
+import cors from "cors";
+
 
 const feriados = [
     { date: "1/1/2022", name: "Confraternização mundial" },
@@ -17,6 +18,8 @@ const feriados = [
 
 
 const app = express();
+app.use(cors());
+
 const porta = 5000;
 
 app.get("/holidays",
