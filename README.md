@@ -20,7 +20,7 @@ node index.js
 ou
 
 ```
-npm index.js
+npm start
 ```
 Assim o servidor estará funcionando na **porta 5000**.
 
